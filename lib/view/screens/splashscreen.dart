@@ -26,7 +26,7 @@ class _SplashScreenState extends State<SplashScreen> {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
-          // Full-screen background image
+          
           Positioned.fill(
             child: Image.asset(
               "assets/image/music_icon.png",
