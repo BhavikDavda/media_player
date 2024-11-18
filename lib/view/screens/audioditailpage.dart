@@ -20,7 +20,6 @@ class _AudioDetailPageState extends State<AudioDetailPage> {
     setState(() {
       isLiked = !isLiked;
     });
-    // Optionally, save the like state to persistent storage here.
   }
 
   @override
@@ -101,7 +100,7 @@ class _AudioDetailPageState extends State<AudioDetailPage> {
                     ),
                   ),
 
-                  // Song Title, Artist, and Like Button
+                  
                   Column(
                     children: [
                       Text(
@@ -135,7 +134,7 @@ class _AudioDetailPageState extends State<AudioDetailPage> {
                     ],
                   ),
 
-                  // Seek Bar and Duration
+                 
                   StreamBuilder<Duration>(
                     stream: widget.player.currentPosition,
                     builder: (context, snapshot) {
@@ -180,7 +179,7 @@ class _AudioDetailPageState extends State<AudioDetailPage> {
                     },
                   ),
 
-                  // Player Controls
+                  
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
