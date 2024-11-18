@@ -95,7 +95,7 @@ class _VideoDetailScreenState extends State<VideoDetailScreen> {
 
             const SizedBox(height: 20),
 
-            // Video details
+           
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: Column(
@@ -112,7 +112,7 @@ class _VideoDetailScreenState extends State<VideoDetailScreen> {
                   ),
                   const SizedBox(height: 8),
 
-                  // Channel Info and Views
+                 
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -156,7 +156,7 @@ class _VideoDetailScreenState extends State<VideoDetailScreen> {
                   ),
                   const SizedBox(height: 20),
 
-                  // Interaction Buttons
+                  
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
@@ -191,7 +191,7 @@ class _VideoDetailScreenState extends State<VideoDetailScreen> {
           child: IconButton(
             icon: Icon(icon, color: Colors.white),
             onPressed: () {
-              // Implement button functionality
+             
             },
           ),
         ),
